@@ -1,0 +1,13 @@
+version :'3'
+services:
+app:
+container_name: expressapp2
+build:
+context: .
+dockerfile: Dockerfile
+ports:
+    - 3618:3618
+networks:
+    - test-network
+volumes:
+    - expressapp2vol1
