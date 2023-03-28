@@ -1,0 +1,24 @@
+{
+  "name": "wk7practise",
+  "version": "1.0.0",
+  "description": "docker --version # create an image from the dockerfile provided via    docker build -t app1:1.0 # Run the container via    docker run app1:1.0 # confirm the image was created via     docker images # confirm that the containerwas created via    docker ps    docker ps -a -to see all containers that have ever been created",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magda098/dockerfilesample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Magda098/dockerfilesample/issues"
+  },
+  "homepage": "https://github.com/Magda098/dockerfilesample#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
